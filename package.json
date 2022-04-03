@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "express-async-errors": "^3.1.1",
     "express-rate-limit": "^5.3.0",
     "helmet": "^4.6.0",
+    "heroku": "^7.60.1",
     "http-status-codes": "^2.1.4",
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
@@ -27,5 +28,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
